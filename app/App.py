@@ -4,7 +4,6 @@ class App:
 
     def __init__(self):
         self.chain = BlockChain()
-        self.chain.construct_genesis()
     
     def chain(self):
         return self.chain
